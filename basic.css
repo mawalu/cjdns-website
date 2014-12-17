@@ -79,7 +79,7 @@ section {
 }
 
 section:nth-child(even) {
-    background: #222;
+    background: #2980b9;
     color: white;
 }
 
