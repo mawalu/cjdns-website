@@ -60,7 +60,7 @@ body > header {
 }
 
 body > header h1 {
-    padding: 2em 0;
+    padding: 3em 0;
 }
 
 body > footer {
@@ -83,13 +83,14 @@ section:nth-child(even) {
     color: white;
 }
 
+nav ul {
+    padding: 1em 0;
+    margin: 0;
+}
+
 nav li {
+    text-align: center;
     display: inline-block;
     width: 19%;
     min-width: 6em;
-}
-
-nav ul {
-    padding: 3em 0;
-    margin: 0;
 }
