@@ -54,9 +54,10 @@ body > header nav, section, body > footer {
 
 body > header {
     background-image: url('http://www.octword.com/images/server-guy.jpg');
+    background-size: cover;
     color: white;
     text-shadow: 0 0 5px black;
-    padding-bottom: 5em;
+    padding-bottom: 7em;
 }
 
 body > header h1 {
