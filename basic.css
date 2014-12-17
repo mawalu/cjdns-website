@@ -48,7 +48,7 @@ blockquote {
     padding: 0 1em;
 }
 
-body > header, section, body > footer {
+body > header nav, section, body > footer {
     padding: 0 calc(27% - 6em);
 }
 
@@ -81,6 +81,10 @@ section {
 section:nth-child(even) {
     background: #2980b9;
     color: white;
+}
+
+body > header nav {
+    border-bottom: 1px solid white;
 }
 
 nav ul {
