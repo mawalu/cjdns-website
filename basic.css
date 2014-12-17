@@ -85,10 +85,6 @@ section:nth-child(even) {
     color: white;
 }
 
-section:nth-child(even) {
-    text-shadow: 0 0 1px black;
-}
-
 body > header nav {
     background: rgba(0,0,0,0.5);
 }
