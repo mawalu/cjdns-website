@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Gentium Basic", serif;
+    font-family: inherit;
     font-weight: 300;
     margin: 0;
     text-align: center;
@@ -24,10 +24,6 @@ a {
 
 a:hover {
     color: gray;
-}
-
-header a:hover, header a#selected {
-    color: royalblue;
 }
 
 h1 a {
@@ -67,7 +63,7 @@ section {
     background: white;
 }
 
-section:nth-child(even), body > header {
+section:nth-child(even) {
     background: #222;
     color: white;
 }
@@ -83,14 +79,9 @@ nav ul {
     margin: 0;
 }
 
-.top {
+body > header {
     background-image: url('http://www.octword.com/images/server-guy.jpg');
     color: white;
     text-shadow: 0 0 3px black;
     padding: 8em;
-}
-
-.top h1 {
-    font-family: inherit;
-    font-weight: 300;
 }
