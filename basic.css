@@ -26,6 +26,10 @@ a:hover {
     color: gray;
 }
 
+header a:hover {
+    color: #35F;
+}
+
 h1 a {
     font-size: 1.2em;
     line-height: 1.4em;
@@ -51,9 +55,12 @@ body > header, section, body > footer {
 body > header {
     background-image: url('http://www.octword.com/images/server-guy.jpg');
     color: white;
-    text-shadow: 0 0 3px black;
     padding-top: 1em;
     padding-bottom: 4em;
+}
+
+body > header h1 {
+    text-shadow: 0 0 3px black;
 }
 
 body > footer {
