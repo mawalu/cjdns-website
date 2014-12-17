@@ -48,7 +48,7 @@ blockquote {
     padding: 0 1em;
 }
 
-section, body > footer {
+body > header, section, body > footer {
     padding: 0 calc(27% - 6em);
 }
 
@@ -89,7 +89,6 @@ nav ul {
 }
 
 nav li {
-    text-align: center;
     display: inline-block;
     width: 19%;
     min-width: 6em;
