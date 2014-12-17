@@ -47,6 +47,7 @@ body > header, section, body > footer {
 }
 
 body > footer {
+    padding: 1em 0;
     text-align: center;    
 }
 
