@@ -27,8 +27,7 @@ a:hover {
 }
 
 header nav a:hover {
-    color: #33F;
-    text-shadow: 0 0 3px black;
+    text-shadow: 0 0 5px black;
 }
 
 h1 a {
