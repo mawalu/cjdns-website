@@ -81,5 +81,10 @@ nav ul {
     background-image: url('http://www.octword.com/images/server-guy.jpg');
     color: white;
     text-shadow: 0 0 3px black;
-    padding: 5em;
+    padding: 8em;
+}
+
+.top h1 {
+    font-family: inherit;
+    font-weight: 300;
 }
