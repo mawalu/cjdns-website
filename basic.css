@@ -10,18 +10,24 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Gentium Basic", serif;
+    font-weight: 300;
     margin: 0;
     text-align: center;
     letter-spacing: 2px;
 }
 
 a {
+    transition: color .1s ease-out;
     color: inherit;
     text-decoration: none;
 }
 
-a:hover, a#selected {
-    text-decoration: underline;
+a:hover {
+    color: gray;
+}
+
+header a:hover, header a#selected {
+    color: royalblue;
 }
 
 h1 a {
@@ -87,19 +93,4 @@ nav ul {
 .top h1 {
     font-family: inherit;
     font-weight: 300;
-}
-
-a, a#selected {
-    transition: color .2s ease-out;
-    color: inherit;
-    text-decoration: none;
-}
-
-a:hover {
-    color: gray;
-    text-decoration: none;
-}
-
-header a:hover {
-    color: royalblue;
 }
