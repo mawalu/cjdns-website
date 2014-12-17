@@ -88,3 +88,13 @@ nav ul {
     font-family: inherit;
     font-weight: 300;
 }
+
+a, a#selected {
+    transition: color .2s ease-out;
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
