@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    transition: color .1s ease-out;
+    transition: all .1s ease-out;
     color: inherit;
     text-decoration: none;
 }
@@ -27,7 +27,8 @@ a:hover {
 }
 
 header a:hover {
-    color: #35F;
+    color: #00F;
+    text-shadow: 0 0 3px black;
 }
 
 h1 a {
@@ -55,8 +56,7 @@ body > header, section, body > footer {
 body > header {
     background-image: url('http://www.octword.com/images/server-guy.jpg');
     color: white;
-    padding-top: 1em;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
 }
 
 body > header h1 {
@@ -90,6 +90,6 @@ nav li {
 }
 
 nav ul {
-    padding: 1em 0;
+    padding: 3em 0;
     margin: 0;
 }
