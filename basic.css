@@ -85,7 +85,7 @@ section:nth-child(even) {
 }
 
 body > header nav {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.5);
 }
 
 nav ul {
