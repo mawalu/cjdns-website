@@ -70,11 +70,6 @@ body > footer {
     text-align: center;    
 }
 
-body > footer span {
-    margin: 0 5%;
-    width: 30%;
-}
-
 section {
     padding-top: 2em;
     padding-bottom: 2em;
@@ -97,6 +92,6 @@ nav ul {
 
 nav li {
     display: inline-block;
-    width: 19%;
+    width: 20%;
     min-width: 6em;
 }
