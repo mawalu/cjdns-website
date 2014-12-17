@@ -27,6 +27,10 @@ a:hover {
 }
 
 header nav a:hover {
+    color: white;
+}
+
+header nav a:hover {
     text-shadow: 0 0 5px black;
 }
 
