@@ -10,6 +10,24 @@
     <link href='//fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    {{ content }}
+    <header>
+      <nav>
+        <ul>
+          <li><a href="{{ page.langcode | prepend: site.baseurl }}">Home</a></li>{% for node in site.pages %}{% if node.title and node.categories contains page.langcode %}<li><a href="{{ node.url }}"{% if page.url == node.url %} id="selected"{% endif %}>{{ node.title }}</a></li>{% endif %}{% endfor %}
+        </ul>
+      </nav>
+      <h1><a href="{{ page.langcode | prepend: site.baseurl }}">{{ page.heading }}</a></h1>
+    </header>
+    <main>
+    {% for node in site.pages %}
+      {% if node.title and node.categories contains page.langcode %}
+      <section>
+        <h2><a href="{{ node.url }}">{{ node.title }}</a></h2>
+        {{ node.content }}
+      </section>
+    </main>
+    <footer>
+      <span>{{ page.first-footer}} <a href="https://github.com/cjdelisle">Caleb James DeLisle</a></span><span class="right">{{ page.last-footer}} <a href="https://projectmeshnet.org/">Project Meshnet</a></span>
+    </footer>
   </body>
 </html>
