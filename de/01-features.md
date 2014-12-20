@@ -1,5 +1,6 @@
 ---
 title: Eigenschaften
+heading: Eigenschaften
 categories: de
 ---
 
