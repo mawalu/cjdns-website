@@ -10,6 +10,7 @@
     <link href='//fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    {{ content }}
     <header>
       <nav>
         <ul>
