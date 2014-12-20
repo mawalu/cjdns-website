@@ -25,6 +25,8 @@
         <h2><a href="{{ node.url }}">{{ node.title }}</a></h2>
         {{ node.content }}
       </section>
+      {% endif %}
+    {% endfor %}
     </main>
     <footer>
       <span>{{ page.first-footer}} <a href="https://github.com/cjdelisle">Caleb James DeLisle</a></span><span class="right">{{ page.last-footer}} <a href="https://projectmeshnet.org/">Project Meshnet</a></span>
