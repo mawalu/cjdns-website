@@ -19,7 +19,7 @@
       <h1><a href="{{ page.langcode | prepend: site.baseurl }}">{{ page.heading }}</a></h1>
     </header>
     <main>
-    {% for node in site.pages %}
+    {% for node in site.posts %}
       {% if node.title and node.categories contains page.langcode %}
       <section id="{{ node.title }}">
         <h2><a href="#{{ node.title }}">{{ node.heading }}</a></h2>
