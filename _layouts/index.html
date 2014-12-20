@@ -22,7 +22,7 @@
     {% for node in site.pages %}
       {% if node.title and node.categories contains page.langcode %}
       <section id="{{ node.title }}">
-        <h2><a href="#{{ node.title }}">{{ node.title }}</a></h2>
+        <h2><a href="#{{ node.title }}">{{ node.heading }}</a></h2>
         {{ node.content }}
       </section>
       {% endif %}
