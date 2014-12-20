@@ -1,8 +1,8 @@
 # Site settings
 title: cjdns
 description: "cjdns: secure decentralized meshnet"
-baseurl: "/"
-url: "http://mawalu.github.io/cjdns-website"
+baseurl: "/cjdns-website/"
+url: "http://mawalu.github.io/"
 
 # Build settings
 markdown: redcarpet
