@@ -1,0 +1,9 @@
+# Site settings
+title: cjdns
+description: "cjdns: secure decentralized meshnet"
+baseurl: "/"
+url: "http://mawalu.github.io/cjdns-website"
+
+# Build settings
+markdown: redcarpet
+permalink: /:categories/:title/
