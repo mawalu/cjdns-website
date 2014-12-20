@@ -13,7 +13,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="{{ page.langcode | prepend: site.baseurl }}">Home</a></li>{% for node in site.pages %}{% if node.title and node.categories contains page.langcode %}<li><a href="{{ node.url }}"{% if page.url == node.url %} id="selected"{% endif %}>{{ node.title }}</a></li>{% endif %}{% endfor %}
+          <li><a href="{{ page.langcode | prepend: site.baseurl }}">Home</a></li>{% for node in site.pages %}{% if node.title and node.categories contains page.langcode %}<li><a href="#{{ node.title }}">{{ node.title }}</a></li>{% endif %}{% endfor %}
         </ul>
       </nav>
       <h1><a href="{{ page.langcode | prepend: site.baseurl }}">{{ page.heading }}</a></h1>
@@ -21,7 +21,7 @@
     <main>
     {% for node in site.pages %}
       {% if node.title and node.categories contains page.langcode %}
-      <section>
+      <section id="{{ node.title }}">
         <h2><a href="{{ node.url }}">{{ node.title }}</a></h2>
         {{ node.content }}
       </section>
