@@ -13,7 +13,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="{{ page.langcode | prepend: site.baseurl }}">Home</a></li>{% for node in site.pages %}{% if node.title and node.categories contains page.langcode %}<li><a href="#{{ node.title }}">{{ node.title }}</a></li>{% endif %}{% endfor %}
+          <li><a href="{{ page.langcode | prepend: site.baseurl }}">Home</a></li>{% for node in site.pages %}{% if node.title and node.categories contains page.langcode %}<li><a href="{{ node.url }}">{{ node.title }}</a></li>{% endif %}{% endfor %}
         </ul>
       </nav>
       <h1><a href="{{ page.langcode | prepend: site.baseurl }}">{{ page.heading }}</a></h1>
