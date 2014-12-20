@@ -66,6 +66,7 @@ body > header h1 {
 }
 
 body > footer {
+    background-color: #2e3234;
     padding-top: 1em;
     padding-bottom: 1em;
 }
