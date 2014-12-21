@@ -72,16 +72,18 @@ nav li {
     min-width: 6em;
 }
 
-.pure-g {
-    letter-spacing: -.31em;
-}
-* {
-    letter-spacing: initial;
-}
-
 .fa.head-icon {
     font-size: 2em;
     padding: .5em;
     display: block;
     text-align: center;
+}
+
+.pure-g {
+    letter-spacing: -.31em;
+}
+.pure-g [class *="pure-u"] {
+    letter-spacing: initial;
+    box-sizing: border-box;
+    padding-right: 6%;
 }
