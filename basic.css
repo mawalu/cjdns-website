@@ -29,20 +29,15 @@ body > * {
     padding: 0 calc(27% - 6em);
 }
 
-body > header {
-    background-color: #333;
+body > header, body > footer {
     background-color: #70b;
     background-color: #0a4;
     background-color: #27f;
+    background-color: #333;
     color: white;
 }
 
 body > footer {
-    background-color: #70b;
-    background-color: #0a4;
-    background-color: #27f;
-    background-color: #333;
-    color: white;
     padding-top: 1em;
     padding-bottom: 1em;
 }
