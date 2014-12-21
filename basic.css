@@ -26,25 +26,7 @@ a:hover {
     color: gray;
 }
 
-h1 a {
-    font-size: 1.2em;
-    line-height: 1.4em;
-}
-
-pre {
-    overflow: auto;
-    padding: 1em;
-    font-size: .8em;
-    line-height: 1.4em;
-}
-
-blockquote {
-    border-left: 5px solid #f2c45a;
-    margin: 0;
-    padding: 0 1em;
-}
-
-body > header nav, section, body > footer {
+body > * {
     padding: 0 calc(27% - 6em);
 }
 
@@ -54,11 +36,6 @@ body > header {
     background-color: #0a4;
     background-color: #27f;
     color: white;
-}
-
-body > header h1 {
-    font-weight: 300;
-    padding: 3em 0;
 }
 
 body > footer {
@@ -75,6 +52,11 @@ section {
     padding-top: 2em;
     padding-bottom: 2em;
     background: white;
+}
+
+section:first-of-type h1 {
+    padding: 5em 0;
+    font-size: 1.2em;
 }
 
 section:nth-child(even) {
