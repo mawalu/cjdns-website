@@ -20,7 +20,7 @@ categories: de
 
 <div class="pure-u-md-1-3">
     <i class="fa fa-eye head-icon"></i>
-    <p>cjdns schützt ihre Privatsphäre, bietet allerdings keine Anonymität</p>
+    <p>Cjdns schützt ihre Privatsphäre, bietet allerdings keine Anonymität</p>
 </div>
 
 <div class="pure-u-md-1-3">
