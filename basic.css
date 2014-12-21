@@ -82,8 +82,11 @@ nav li {
     text-align: center;
 }
 
-.justify {
+.feature {
     text-align: justify;
+}
+.feature h3 {
+    font-weight: 400;
 }
 
 .pure-g {
