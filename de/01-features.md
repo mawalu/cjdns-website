@@ -24,7 +24,7 @@ categories: de
 </div>
 
 <div class="pure-u-md-1-3">
-    <i class="fa fa-university head-icon"></i>
+    <i class="fa fa-tachometer head-icon"></i>
     <p>Das Routing ist schnell und flexibel, defekte Knoten werden automatisch umgangen</p>
 </div>
 
