@@ -23,5 +23,5 @@ finden.
 Zu diesem Zeitpunkt ist es möglich, jeden anderen Knoten im Netzwerk zu
 erreichen. Das einzige, was hierzu benötigt wird, ist IPv6 Adresse des Ziels. Die
 Verbindung kann über jedes gewünschte Programm oder Protokoll hergestellt werden,
-ohne das eine weitere Konfiguration notwendig ist. Cjdns nimmt keinen Einfluss
+ohne dass eine weitere Konfiguration notwendig ist. Cjdns nimmt keinen Einfluss
 im OSI Model oberhalb von Layer drei.
