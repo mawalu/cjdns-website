@@ -51,6 +51,10 @@ body > header nav, section, body > footer {
 body > header {
     background-image: url('http://d394491aozrvw2.cloudfront.net/assets/img/2013/backgrounds/server-guy.jpg');
     background-size: cover;
+    background-color: #333;
+    background-color: #70b;
+    background-color: #0a4;
+    background-color: #27f;
     color: white;
     padding-bottom: 10em;
 }
@@ -75,10 +79,10 @@ section {
 }
 
 section:nth-child(even) {
-    background: #333;
-    background: #70b;
-    background: #0a4;
-    background: #27f;
+    background-color: #333;
+    background-color: #70b;
+    background-color: #0a4;
+    background-color: #27f;
     color: white;
 }
 
