@@ -29,15 +29,12 @@ body > * {
     padding: 0 calc(27% - 6em);
 }
 
-body > header, body > footer {
+header, footer {
     background-color: #70b;
     background-color: #0a4;
     background-color: #27f;
     background-color: #333;
     color: white;
-}
-
-body > footer {
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -62,7 +59,6 @@ section:nth-child(even) {
 }
 
 nav ul {
-    padding: 1em 0;
     margin: 0;
 }
 
