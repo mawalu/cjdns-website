@@ -5,5 +5,5 @@ baseurl: "/cjdns-website/"
 url: "http://mawalu.github.io/"
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: /:categories/:title/
