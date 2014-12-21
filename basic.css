@@ -75,18 +75,17 @@ nav li {
     padding-right: 10%;
 }
 
-.fa.head-icon {
-    font-size: 2em;
-    padding: .5em;
-    display: block;
-    text-align: center;
-}
-
 .feature {
     text-align: justify;
 }
 .feature h3 {
     font-weight: 400;
+}
+.feature .head-icon {
+    font-size: 2em;
+    padding: .5em;
+    display: block;
+    text-align: center;
 }
 
 .pure-g {
