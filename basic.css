@@ -78,3 +78,10 @@ nav li {
 * {
     letter-spacing: initial;
 }
+
+.fa.head-icon {
+    font-size: 2em;
+    padding: .5em;
+    display: block;
+    text-align: center;
+}
