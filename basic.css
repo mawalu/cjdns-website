@@ -85,7 +85,7 @@ nav li {
 .pure-g * {
     letter-spacing: initial;
 }
-.pure-g [class *="pure-u"] {
+.pure-g > * {
     box-sizing: border-box;
     padding-left: 3%;
     padding-right: 3%;
