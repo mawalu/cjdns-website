@@ -50,10 +50,6 @@ section:nth-child(even) {
     color: white;
 }
 
-section:nth-child(3) {
-    text-align: justify;
-}
-
 header, footer, section:last-of-type {
     background-color: #70b;
     background-color: #0a4;
