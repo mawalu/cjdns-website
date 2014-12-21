@@ -33,7 +33,7 @@ nav ul {
 }
 
 body > * {
-    padding: 0 calc(27% - 6em);
+    padding: 0 calc(27% - 5em);
 }
 
 header, footer {
