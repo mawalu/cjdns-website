@@ -25,6 +25,10 @@ a:hover {
     text-decoration: underline;
 }
 
+nav ul {
+    margin: 0;
+}
+
 body > * {
     padding: 0 calc(27% - 6em);
 }
@@ -56,10 +60,6 @@ section:nth-child(even) {
     background-color: #0a4;
     background-color: #27f;
     color: white;
-}
-
-nav ul {
-    margin: 0;
 }
 
 nav li {
