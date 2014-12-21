@@ -87,5 +87,6 @@ nav li {
 }
 .pure-g [class *="pure-u"] {
     box-sizing: border-box;
-    padding-right: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
