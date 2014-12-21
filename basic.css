@@ -75,7 +75,6 @@ nav li {
 .pure-g {
     letter-spacing: -.31em;
 }
-.pure-g .pure-u {
-    letter-spacing: 0;
-}
+* {
+    letter-spacing: initial;
 }
