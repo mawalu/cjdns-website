@@ -62,7 +62,7 @@ body > header h1 {
 }
 
 body > footer {
-    background-color: #2e3234;
+    background-color: #333;
     color: white;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -75,6 +75,7 @@ section {
 }
 
 section:nth-child(even) {
+    background: #333;
     background: #70b;
     background: #0a4;
     background: #27f;
