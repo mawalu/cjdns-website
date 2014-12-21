@@ -36,7 +36,7 @@ body > * {
     padding: 0 calc(27% - 5em);
 }
 
-header, footer, section#footer {
+header, footer, section:last-of-type {
     background-color: #70b;
     background-color: #0a4;
     background-color: #27f;
@@ -52,7 +52,7 @@ section {
     background: white;
 }
 
-section#top h1 {
+section:first-of-type h1 {
     padding: 2.5em 0;
     text-shadow: 1px 0 1px blue;
     font-size: 2.5em;
