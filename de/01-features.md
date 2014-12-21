@@ -18,7 +18,7 @@ categories: de
 <div class="pure-u-md-1-3 feature">
     <h3>Kompatabilität</h3>
     <i class="fa fa-globe"></i>
-    <p>cjdns arbeitet für Programme transparent, sämtliche Protokolle wie <i>http</i> bleiben kompatibel.</p>
+    <p>cjdns arbeitet für Programme transparent, bestehende Protokolle wie <i>http</i> bleiben kompatibel.</p>
 </div>
 
 <div class="pure-u-md-1-3 feature">
