@@ -71,10 +71,3 @@ nav li {
     width: 20%;
     min-width: 6em;
 }
-
-.left {
-    float: left;
-}
-.right {
-    float: right;
-}
