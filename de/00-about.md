@@ -9,4 +9,4 @@ Es bietet Kompatabilität zu IPv6 (Layer 3 nach OSI) und kann dabei auf dem best
 
 Ermöglicht wird dies, indem Adressen nicht mehr durch die ICANN, sondern durch Public-Key-Kryptografie vergeben werden, und das Routing, was großen Providern vorbehalten war, durch verteilte Hashtabellen realisiert wird.
 
-Dadurch werden Zensur, Überwachung und Manipulationen verhindert.
+Ziel ist es, neben einem unabhängigen Protokoll auch eine unabhängige Infrakstruktur bereitzustellen, um Zensur, Überwachung und Manipulationen zu verhindern.
