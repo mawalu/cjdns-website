@@ -20,7 +20,7 @@
     <section id="top"><h1><a href="{{ page.langcode | prepend: site.baseurl }}">{{ page.heading }}</a></h1></section>
     {% for node in site.pages %}
     {% if node.title and node.categories contains page.langcode %}
-    <section id="{{ node.title }}">
+    <section id="{{ node.title }}" class="pure-g">
       <h2><a href="#{{ node.title }}">{{ node.heading }}</a></h2>
       {{ node.content }}
     </section>
