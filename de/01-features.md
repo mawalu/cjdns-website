@@ -9,12 +9,12 @@ categories: de
 </div>
 
 <div class="pure-u-md-1-3">
-    <i class="fa fa-globe head-icon"></i>
+    <i class="fa fa-sitemap head-icon"></i>
     <p>Es existiert keine zentrale Autorität, welche Inhalte zensieren könnte</p>
 </div>
 
 <div class="pure-u-md-1-3">
-    <i class="fa fa-sitemap head-icon"></i>
+    <i class="fa fa-globe head-icon"></i>
     <p>Die Einrichtung ist schnell und einfach, das Netzwerk verwaltet sich komplett selbstständig</p>
 </div>
 
