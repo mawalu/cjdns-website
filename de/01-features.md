@@ -29,7 +29,7 @@ categories: de
 
 <div class="pure-u-md-1-3 feature">
     <h3>Open-Source</h3>
-    <i class="fa fa-users head-icon"></i>
+    <i class="fa fa-users"></i>
     <p>Quelltext und Protokollspezifikationen sind frei verfügbar, jeder kann sich am Projekt beteiligen und sie Sicherheit nachvolziehen.</p>
 </div>
 
