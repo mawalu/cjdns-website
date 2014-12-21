@@ -10,25 +10,25 @@ categories: de
 
 <div class="pure-u-md-1-3">
     <i class="fa fa-users head-icon"></i>
-    <p>Es existiert keine zentrale Autorität. Cjdns verwaltet sich zu 100% selbstständig</p>
+    <p>Es existiert keine zentrale Autorität, welche Inhalte zensieren könnte</p>
 </div>
 
 <div class="pure-u-md-1-3">
     <i class="fa fa-exchange head-icon"></i>
-    <p>Routing inerhalb des Netzwerks ist schnell und einfach</p>
+    <p>Die Einrichtung ist schnell und einfach, das Netzwerk verwaltet sich komplett selbstständig</p>
 </div>
 
 <div class="pure-u-md-1-3">
     <i class="fa fa-eye head-icon"></i>
-    <p>Das Netzwerk bietet Pseudonymität, jedoch keine Anonymität</p>
+    <p>cjdns schützt ihre Privatsphäre, bietet allerdings keine Anonymität</p>
 </div>
 
 <div class="pure-u-md-1-3">
     <i class="fa fa-university head-icon"></i>
-    <p>Große Provider können durch kleine Firmen oder Privatpersonen ersetzt werden</p>
+    <p>Das Routing ist schnell und flexibel, defekte Knoten werden automatisch umgangen</p>
 </div>
 
 <div class="pure-u-md-1-3">
     <i class="fa fa-unlock head-icon"></i>
-    <p>Das Netzwerk kann nicht zensiert werden</p>
+    <p>Bestehende Netzwerkprogramme bleiben kompatibel </p>
 </div>
