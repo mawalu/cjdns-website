@@ -5,7 +5,7 @@ heading: "cjdns: secure decentralized meshnet"
 ---
 
 <script>
-  if (location.pathname == '{{ site.baseurl }}') {
-    console.log('Main Page');
-  }
+  var languages = ['de'];
+  if (languages.indexOf(navigator.language) !== -1)
+    window.location = '{{ site.baseurl }}' + navigator.language;
 </script>
