@@ -72,8 +72,7 @@ section:first-of-type h1 {
 
 nav li {
     display: inline-block;
-    width: 20%;
-    min-width: 6em;
+    padding-right: 6em;
 }
 
 .fa.head-icon {
