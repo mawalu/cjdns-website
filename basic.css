@@ -55,8 +55,8 @@ section {
 }
 
 section:first-of-type h1 {
-    padding: 5em 0;
-    font-size: 1.2em;
+    padding: 2.5em 0;
+    font-size: 2.5em;
 }
 
 section:nth-child(even) {
