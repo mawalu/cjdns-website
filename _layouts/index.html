@@ -5,7 +5,7 @@
     <meta charset="{{ site.encoding }}">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %} {{ page.title }} › {% endif %}{{ site.title }}</title>
-    <link rel="stylesheet" type="text/css" href="{{ "basic.css" | prepend: site.baseurl }}">
+    <link href="{{ "basic.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
