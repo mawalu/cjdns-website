@@ -9,6 +9,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,200italic,300italic' rel='stylesheet' type='text/css'>
+{{ content }}
   </head>
   <body>
     <header>
@@ -18,7 +19,6 @@
         </ul>
       </nav>
     </header>
-{{ content }}
     <section><h1>{{ page.heading }}</h1></section>
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
