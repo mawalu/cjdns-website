@@ -79,6 +79,10 @@ nav li {
     text-align: center;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .pure-g {
     letter-spacing: -.31em;
 }
