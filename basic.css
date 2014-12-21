@@ -71,3 +71,7 @@ nav li {
     width: 20%;
     min-width: 6em;
 }
+
+.pure-g {
+    letter-spacing: -.31em;
+}
