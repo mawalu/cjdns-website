@@ -36,5 +36,5 @@ categories: de
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
     <h3>Stabilität</h3>
     <i class="fa fa-tachometer"></i>
-    <p>Durch seinen schlanken Aufbau ist das Routing schnell, robust und flexibel; defekte Knoten werden automatisch umgangen.</p>
+    <p>Durch seinen schlanken Aufbau ist das Routing schnell, robust und flexibel, defekte Knoten werden automatisch umgangen.</p>
 </div>
