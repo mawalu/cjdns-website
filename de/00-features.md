@@ -1,6 +1,6 @@
 ---
-title: Eigenschaften
-heading: Eigenschaften
+title: Vorteile
+heading: Vorteile
 categories: de
 ---
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
