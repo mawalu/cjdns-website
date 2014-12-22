@@ -18,7 +18,7 @@ categories: de
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
     <h3>Kompatabilität</h3>
     <i class="fa fa-globe"></i>
-    <p>cjdns arbeitet für Programme transparent, bestehende Protokolle wie <i>http</i> bleiben kompatibel.</p>
+    <p>cjdns arbeitet für Programme transparent, bestehende Protokolle bleiben kompatibel.</p>
 </div>
 
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
@@ -30,7 +30,7 @@ categories: de
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
     <h3>Open-Source</h3>
     <i class="fa fa-users"></i>
-    <p>Quellcode und Protokollspezifikationen sind frei verfügbar, jeder kann sich am Projekt beteiligen und den Quellcode überprüfen.</p>
+    <p>Quellcode und Protokoll sind frei verfügbar, jeder kann sich am Projekt beteiligen und den Quellcode überprüfen.</p>
 </div>
 
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
