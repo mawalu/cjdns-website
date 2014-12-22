@@ -12,7 +12,7 @@ categories: de
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
     <h3>Privatsphäre</h3>
     <i class="fa fa-eye"></i>
-    <p>Nachrichten werden Ende-zu-Ende verschlüsselt, nur Sender und Empfänger kennen den Klartext.</p>
+    <p>Alle Nachrichten werden Ende-zu-Ende verschlüsselt, nur Sender und Empfänger kennen den Klartext.</p>
 </div>
 
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
