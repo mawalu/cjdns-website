@@ -54,15 +54,15 @@ header, section:last-of-type {
     padding-bottom: 1em;
 }
 
-header, section:last-of-type {
-    background-color: #16f;
-    background-color: #333;
-    color: white;
-}
-
 section:nth-child(even) {
     background-color: #333;
     background-color: #16f;
+    color: white;
+}
+
+header, section:last-of-type {
+    background-color: #16f;
+    background-color: #333;
     color: white;
 }
 
