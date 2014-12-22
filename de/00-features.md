@@ -18,7 +18,7 @@ categories: de
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
     <h3>Kompatabilität</h3>
     <i class="fa fa-globe"></i>
-    <p>cjdns arbeitet für Programme transparent, bestehende Protokolle bleiben kompatibel.</p>
+    <p>Durch die Kompatabilität zu IPv6, ist ein Wechsel zu cjdns für bestehende Anwendungen und Protokolle transparent. </p>
 </div>
 
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
