@@ -65,7 +65,7 @@ section:nth-child(even) {
 
 section:first-of-type h1 {
     padding: 2.5em 0;
-    text-shadow: 1px 0 1px blue;
+    text-shadow: 1px 0 0 black;
     font-size: 2.5em;
 }
 
