@@ -23,7 +23,7 @@ categories: de
 
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
     <h3>Dezentralisierung</h3>
-    <i class="fa fa-sitemap"></i>
+    <i class="fa fa-share-alt"></i>
     <p>cjdns kann sich unabhängig von sämtlichen zentralen Instanzen selbst verwalten, wodurch Zensur, Überwachung und Manipulation unmöglich werden.</p>
 </div>
 
