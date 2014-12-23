@@ -8,7 +8,7 @@
     <link href="{{ "basic.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css" rel="stylesheet">
-    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,200italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,200italic,300italic,400italic' rel='stylesheet' type='text/css'>
 {{ content }}
   </head>
   <body>
@@ -19,7 +19,13 @@
         </ul>
       </nav>
     </header>
-    <section><h1>{{ page.heading }}</h1></section>
+    <section>
+      <h1>{{ page.heading }}</h1>
+      <div>
+        <p>{{ page.description }}</p>
+        <p>{{ page.whitepaper }}</p>
+      </div>
+    </section>
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
     <section id="{{ node.title }}">

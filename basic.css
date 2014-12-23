@@ -11,11 +11,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
     font-weight: 200;
-    text-align: center;
     letter-spacing: 2px;
     line-height: 1.4em;
     margin: 0;
     padding: .5em;
+    text-align: center;
 }
 
 a {
@@ -32,6 +32,12 @@ nav ul {
     padding: 0;
 }
 
+nav ul li {
+    display: inline-block;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
 body > * {
     padding: 0 calc(25% - 5em);
 }
@@ -39,51 +45,47 @@ body > * {
 section {
     padding-top: 2em;
     padding-bottom: 2em;
-    background: white;
 }
 
-section:nth-child(even) {
-    background-color: #333;
-    background-color: #70b;
-    background-color: #0a4;
-    background-color: #27f;
-    color: white;
-}
-
-section:nth-child(3) {
-    text-align: justify;
-}
-
-header, footer, section:last-of-type {
-    background-color: #70b;
-    background-color: #0a4;
-    background-color: #27f;
-    background-color: #333;
-    color: white;
+header, section:last-of-type {
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
+section:nth-child(even) {
+    background-color: #333;
+    background-color: #16f;
+    color: white;
+}
+
+header, section:last-of-type {
+    background-color: #16f;
+    background-color: #333;
+    color: white;
+}
+
 section:first-of-type h1 {
     padding: 2.5em 0;
-    text-shadow: 1px 0 1px blue;
+    text-shadow: 1px 0 0 black;
     font-size: 2.5em;
 }
 
-nav li {
-    display: inline-block;
-    padding-right: 10%;
+section:first-of-type div {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
-.fa.head-icon {
+.feature {
+    text-align: justify;
+}
+.feature h3 {
+    font-weight: 400;
+}
+.feature .fa {
     font-size: 2em;
-    padding: .5em;
+    padding: .25em;
     display: block;
     text-align: center;
-}
-
-.justify {
-    text-align: justify;
 }
 
 .pure-g {
