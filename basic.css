@@ -70,6 +70,11 @@ section:first-of-type h1 {
     font-size: 2.5em;
 }
 
+section:first-of-type div {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
 .feature {
     text-align: justify;
 }
