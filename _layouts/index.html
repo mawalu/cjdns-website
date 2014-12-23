@@ -11,6 +11,7 @@
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,200italic,300italic,400italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
+
     <header>
       <nav>
         <ul>
@@ -18,21 +19,20 @@
         </ul>
       </nav>
     </header>
+
     <section>
       <h1>{{ page.heading }}</h1>
-      <div  class="pure-g">
+      <div class="pure-g">
         {{ content }}
       </div>
     </section>
-    {% for node in site.pages %}
-    {% if node.categories contains page.langcode %}
+    {% for node in site.pages %}{% if node.categories contains page.langcode %}
     <section id="{{ node.title }}">
       {% if node.title and node.heading %}<h2>{{ node.heading }}</h2>{% endif %}
       <div class="pure-g">
 {{ node.content }}
       </div>
     </section>
-    {% endif %}
-    {% endfor %}
+    {% endif %}{% endfor %}
   </body>
 </html>
