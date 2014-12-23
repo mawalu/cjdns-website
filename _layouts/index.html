@@ -21,8 +21,10 @@
     </header>
     <section>
       <h1>{{ page.heading }}</h1>
-      <p>{{ page.description }}</p>
-      <p><i class="fa fa-angle-double-right"></i> <a href="https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md">Whitepaper</a></p>
+      <div>
+        <p>{{ page.description }}</p>
+        <p><i class="fa fa-angle-double-right"></i> <a href="https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md">Whitepaper</a></p>
+      </div>
     </section>
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
