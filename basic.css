@@ -88,11 +88,12 @@ section:first-of-type div {
     text-align: center;
 }
 
-.pure-g {
-    display: inline-table;
-}
 .pure-g > * {
     box-sizing: border-box;
     padding-left: 3%;
     padding-right: 3%;
+}
+.pure-g [class *="pure-u"] {
+    margin-left: -2px;
+    margin-right: -20x;
 }
