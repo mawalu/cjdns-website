@@ -89,10 +89,7 @@ section:first-of-type div {
 }
 
 .pure-g {
-    letter-spacing: -.31em;
-}
-.pure-g * {
-    letter-spacing: initial;
+    display: inline-table;
 }
 .pure-g > * {
     box-sizing: border-box;
