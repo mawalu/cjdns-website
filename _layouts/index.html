@@ -11,7 +11,6 @@
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,200italic,300italic,400italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
-
     <header>
       <nav>
         <ul>
@@ -23,7 +22,7 @@
     <section>
       <h1>{{ page.heading }}</h1>
       <div class="pure-g">
-        {{ content }}
+{{ content }}
       </div>
     </section>
     {% for node in site.pages %}{% if node.categories contains page.langcode %}
