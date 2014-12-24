@@ -1,6 +1,7 @@
 ---
 layout: index
 langcode: de
+categories: index
 heading: "cjdns: Ein sicheres, dezentrales Netzwerk"
 ---
 
