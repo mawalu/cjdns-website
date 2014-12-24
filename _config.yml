@@ -7,15 +7,3 @@ url: "http://mawalu.github.io/"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
-
-defaults:
-  -
-    scope:
-      path: "de"
-    values:
-      categories: "de"
-  -
-    scope:
-      path: "en"
-    values:
-      categories: "en"
