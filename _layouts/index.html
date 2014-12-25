@@ -18,12 +18,9 @@
         </ul>
       </nav>
     </header>
-
+{{ content }}
     <section>
       <h1>{{ page.heading }}</h1>
-      <div class="pure-g">
-{{ content }}
-      </div>
     </section>
     {% for node in site.pages %}{% if node.categories contains page.langcode %}
     <section id="{{ node.title }}">
