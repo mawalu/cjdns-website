@@ -88,6 +88,13 @@ section:first-of-type div {
     border-bottom: 1px solid white;
 }
 
+section:nth-child(2) {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #ddd;
+    background: #f5f5f5;
+}
+
 .feature {
     text-align: justify;
 }
