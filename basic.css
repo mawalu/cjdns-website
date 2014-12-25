@@ -89,7 +89,7 @@ section:first-of-type div {
     border-bottom: 1px solid white;
 }
 
-section:nth-child(2) {
+section:nth-child(3) {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: 1px solid #ddd;
