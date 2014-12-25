@@ -61,7 +61,7 @@ header, section:last-of-type {
     padding-bottom: 1em;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
     background-color: #333;
     background-color: #16f;
     color: white;
