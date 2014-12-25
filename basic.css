@@ -75,6 +75,7 @@ header, section:last-of-type {
 
 section:first-of-type {
     background-color: #16f;
+    color: white;
 }
 
 section:first-of-type h1 {
