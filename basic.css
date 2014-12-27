@@ -1,6 +1,11 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 body {
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.4em;
     font-size: calc(.6vmax + .8em);
     line-height: 1.4em;
