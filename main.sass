@@ -6,13 +6,13 @@
 
 body
   +body_background({{ site.style.body }})
-  > header,  > footer
+  header, section:last-of-type
     +contrast({{ site.style.nav }})
 
-article:nth-child(even)
+section:nth-child(even)
   +article_background({{ site.style.article.even }})
 
-article:nth-child(odd)
+section:nth-child(odd)
   +article_background({{ site.style.article.odd }})
 
 @import vendor
