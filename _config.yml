@@ -13,4 +13,4 @@ style:
     nav: "#333"
     article:
         even: "white"
-        odd: "#16f"
+        odd: "#05f"
