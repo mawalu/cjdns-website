@@ -7,8 +7,6 @@ body
     margin: 0
 
 h1, h2, h3, h4, h5, h6
-    font-family: "Gentium Basic", serif
-    text-transform: uppercase
     letter-spacing: .1em
     line-height: 1em
     a
@@ -51,24 +49,12 @@ nav
         display: inline-block
         margin-right: 10%
 
-article
+section
     border-top: 1px solid
     &:first-of-type
         border-top: none
-    header
-        text-align: center
-    > div
-        margin-bottom: 2em
-    footer a
-        border: 1px solid
-        border-radius: 3px
-        padding: .3em .6em
-        transition: background-color .2s ease-out
 
-body > header h1
-    margin-top: .25em
-    margin-bottom: 1em
 
-body > footer
+section:last-of-type
     display: flex
     justify-content: space-between
