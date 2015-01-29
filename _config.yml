@@ -7,3 +7,10 @@ url: "http://mawalu.github.io/"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+
+style:
+#    body: "whitesmoke"
+    nav: "#181818"
+    article:
+        even: "white"
+        odd: "#222222"
