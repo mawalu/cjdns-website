@@ -22,33 +22,23 @@
     <div id="top">
       <h1>{{ page.heading }}</h1>
     </div>
-    <!-- start -->
-    {% for node in site.pages | where:"categories",page.langcode %}
-    {{ node }}
-    {% endfor %}
-    <!-- end -->
 
-    {% assign counter=0 %}{% for node in site.pages %}{% if node.categories contains page.langcode %}{% assign counter=counter | plus:1 %}{% endif %}{% endfor %}
-    {% assign index=0 %}
-    {% for node in site.pages %}
-    {% if node.categories contains page.langcode %}
-    {% assign index=index | plus:1 %}
-    {% if index == 1 %}
+    {% for node in site.pages | where:"categories",page.langcode %}
+    {% if forloop.first %}
     <div>
 {{ node.content }}
     </div>
-    {% elsif index < counter %}
+    {% elsif forloop.last %}
+    <footer>
+{{ node.content }}
+    </footer>
+    {% else %}
     <article id="{{ node.title }}">
 {% if node.title and node.heading %}
   <header><h2>{{ node.heading }}</h2></header>
 {% endif %}
 {{ node.content }}
     </article>
-    {% else %}
-    <footer>
-{{ node.content }}
-    </footer>
-    {% endif %}
     {% endif %}
     {% endfor %}
   </body>
