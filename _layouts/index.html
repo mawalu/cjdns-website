@@ -21,12 +21,7 @@
     <section>
       <h1>{{ page.heading }}</h1>
     </section>
-    {% assign counter=0 %}
-    {% for node in site.pages %}
-    {% if node.categories contains page.langcode %}
-    {% assign counter=counter | plus:1 %}
-    {% endif %}
-    {% endfor %}
+    {% assign counter=0 %}{% for node in site.pages %}{% if node.categories contains page.langcode %}{% assign counter=counter | plus:1 %}{% endif %}{% endfor %}
     {% assign index=0 %}
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
