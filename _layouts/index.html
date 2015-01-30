@@ -22,7 +22,7 @@
     <div id="top">
       <h1>{{ page.heading }}</h1>
     </div>
-    {% assign my = "|" | split: "|" %}
+    {% assign my = "a|b" | split: "|" %}
     {% assign i=0 %}
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
@@ -32,7 +32,7 @@
     {% endfor %}
     <!-- start -->
     {% for node in my %}
-    {{ node.content }}
+    {{ node }}
     {% endfor %}
     <!-- end -->
 
