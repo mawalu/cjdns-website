@@ -24,13 +24,13 @@
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
     {% if forloop.length == forloop.index0 %}
-    <section {% forloop.length %} {% forloop.index0 %} id="{{ node.title }}">
+    <section {{ forloop.length }} {{ forloop.index0 }} id="{{ node.title }}">
 {% if node.title and node.heading %}
   <h2>{{ node.heading }}</h2>
 {% endif %}
 {{ node.content }}
     </section>
-    {% else %}
+    {% else {{ forloop.length }} {{ forloop.index0 }} %}
     <footer>
 {{ node.content }}
     </footer>
