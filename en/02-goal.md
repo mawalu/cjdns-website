@@ -1,6 +1,6 @@
 ---
-title: idea
-heading: the idea begind cjdns
+title: Idea
+heading: The idea begind cjdns
 categories: en
 ---
 Cjdns wird mit dem Ziel entwickelt, eine Alternative zum heutigen Internet
