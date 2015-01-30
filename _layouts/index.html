@@ -22,8 +22,8 @@
     <div id="top">
       <h1>{{ page.heading }}</h1>
     </div>
-
-    {% for node in site.pages | where:"categories","de" %}
+    {% assign pages = site.pages | where:"categories","de" %}
+    {% for node in pages %}
     {% if forloop.first %}
     <div>
 {{ node.content }}
