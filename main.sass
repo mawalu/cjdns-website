@@ -8,11 +8,13 @@ body
   +body_background({{ site.style.body }})
   > header, > footer
     +contrast({{ site.style.nav }})
+  > div
+    +article_background({{ site.style.description }}, {{ site.style.anchor }})
 
-section:nth-child(even)
-  +article_background({{ site.style.article.even }})
+article:nth-of-type(even)
+  +article_background({{ site.style.article.even }}, {{ site.style.anchor }})
 
-section:nth-child(odd)
-  +article_background({{ site.style.article.odd }})
+article:nth-of-type(odd)
+  +article_background({{ site.style.article.odd }}, {{ site.style.anchor }})
 
 @import vendor
