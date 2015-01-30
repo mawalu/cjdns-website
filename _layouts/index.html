@@ -23,7 +23,7 @@
       <h1>{{ page.heading }}</h1>
     </div>
 
-    {% for node in site.pages | where:"categories",page.langcode %}
+    {% for node in site.pages | where:"categories","de" %}
     {% if forloop.first %}
     <div>
 {{ node.content }}
