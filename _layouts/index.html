@@ -22,7 +22,7 @@
     <div id="top">
       <h1>{{ page.heading }}</h1>
     </div>
-    {% assign pages = site.pages | where:"categories","de" %}
+    {% assign pages = site.pages | where:"categories", page.langcode %}
     {% for node in pages %}
     {% if forloop.first %}
     <div>
