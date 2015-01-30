@@ -30,7 +30,11 @@
     {% assign my[i]=node %}
     {% endif %}
     {% endfor %}
-    {{ my[0].content }}
+    <!-- start -->
+    {% for node in my %}
+    {{ node.content }}
+    {% endfor %}
+    <!-- end -->
 
     {% assign counter=0 %}{% for node in site.pages %}{% if node.categories contains page.langcode %}{% assign counter=counter | plus:1 %}{% endif %}{% endfor %}
     {% assign index=0 %}
