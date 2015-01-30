@@ -34,7 +34,7 @@
     {% elsif index < counter %}
     <article id="{{ node.title }}">
 {% if node.title and node.heading %}
-  <h2><a href="{{ node.title }}">{{ node.heading }}</a></h2>
+  <header><h2>{{ node.heading }}</h2></header>
 {% endif %}
 {{ node.content }}
     </article>
