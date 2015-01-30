@@ -17,8 +17,8 @@
     $light: lightness($background) > 50%
 
     tr:hover
-        background-color: if($light, #eeeeee, #333333)
+        background-color: if($light, darken($background, 7%), lighten($background, 7%))
     th
         border-bottom-width: 2px
     th, td
-        border-color: if($light, #dddddd, #444444)
+        border-color: if($light, darken($background, 14%), lighten($background, 14%))
