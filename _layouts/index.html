@@ -30,8 +30,8 @@
 {% endif %}
 {{ node.content }}
     </section>
-    {% else {{ forloop.length }} {{ forloop.index0 }} %}
-    <footer>
+    {% else %}
+    <footer {{ forloop.length }} {{ forloop.index0 }}>
 {{ node.content }}
     </footer>
     {% endif %}
