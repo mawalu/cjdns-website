@@ -26,6 +26,7 @@
     {% assign i=0 %}
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
+    {% assign i=i | plus:1 %}
     {% assign my[i]=node %}
     {% endif %}
     {% endfor %}
