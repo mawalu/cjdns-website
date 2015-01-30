@@ -26,13 +26,17 @@
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
     {% assign index=index | plus:1 %}
-    {% if index < counter %}
-    <section id="{{ node.title }}">
+    {% if index == 1 %}
+    <div>
+{{ node.content }}
+    </div>
+    {% elsif index < counter %}
+    <article id="{{ node.title }}">
 {% if node.title and node.heading %}
   <h2>{{ node.heading }}</h2>
 {% endif %}
 {{ node.content }}
-    </section>
+    </article>
     {% else %}
     <footer>
 {{ node.content }}
