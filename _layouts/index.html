@@ -7,7 +7,6 @@
     <title>{% if page.title %} {{ page.title }} › {% endif %}{{ site.title }}</title>
     <link href="{{ "main.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,200italic,300italic,400italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -22,13 +21,17 @@
     <section>
       <h1>{{ page.heading }}</h1>
     </section>
-    {% for node in site.pages %}{% if node.categories contains page.langcode %}
+    {% for node in site.pages %}
+    {% if node.categories contains page.langcode %}
     <section id="{{ node.title }}">
-      {% if node.title and node.heading %}<h2>{{ node.heading }}</h2>{% endif %}
-      <div class="pure-g">
+{% if node.title and node.heading %}
+  <h2>{{ node.heading }}</h2>
+{% endif %}
+
 {{ node.content }}
-      </div>
+
     </section>
-    {% endif %}{% endfor %}
+    {% endif %}
+    {% endfor %}
   </body>
 </html>
