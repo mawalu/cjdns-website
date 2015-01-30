@@ -25,15 +25,21 @@
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
     {% assign counter=counter | plus:1 %}
-    {% if forloop.index0 == counter %}
-    <section {{ forloop.index0 }} {{ counter }} id="{{ node.title }}">
+    {% endif %}
+    {% endfor %}
+    {% assign index=0 %}
+    {% for node in site.pages %}
+    {% if node.categories contains page.langcode %}
+    {% assign index=index | plus:1 %}
+    {% if index == counter %}
+    <section id="{{ node.title }}">
 {% if node.title and node.heading %}
   <h2>{{ node.heading }}</h2>
 {% endif %}
 {{ node.content }}
     </section>
     {% else %}
-    <footer {{ forloop.index0 }} {{ counter }}>
+    <footer>
 {{ node.content }}
     </footer>
     {% endif %}
