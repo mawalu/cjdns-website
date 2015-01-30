@@ -12,5 +12,5 @@ style:
 #    body: "whitesmoke"
     nav: "#333"
     article:
-        even: "white"
+        even: "#fbfbfb"
         odd: "#05f"
