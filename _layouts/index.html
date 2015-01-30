@@ -24,7 +24,7 @@
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
     {% if forloop.length == forloop.index0 %}
-    <section lol id="{{ node.title }}">
+    <section id="{{ node.title }}">
 {% if node.title and node.heading %}
   <h2>{{ node.heading }}</h2>
 {% endif %}
