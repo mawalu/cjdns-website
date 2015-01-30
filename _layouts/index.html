@@ -26,14 +26,14 @@
     {% if node.categories contains page.langcode %}
     {% increment counter %}
     {% if forloop.length == counter %}
-    <section {{ forloop.length }} {{ forloop.index0 }} id="{{ node.title }}">
+    <section {{ forloop.length }} {{ counter }} id="{{ node.title }}">
 {% if node.title and node.heading %}
   <h2>{{ node.heading }}</h2>
 {% endif %}
 {{ node.content }}
     </section>
     {% else %}
-    <footer {{ forloop.length }} {{ forloop.index0 }}>
+    <footer {{ forloop.length }} {{ counter }}>
 {{ node.content }}
     </footer>
     {% endif %}
