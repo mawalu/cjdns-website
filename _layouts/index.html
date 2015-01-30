@@ -31,7 +31,7 @@
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
     {% assign index=index | plus:1 %}
-    {% if index == counter %}
+    {% if index < counter %}
     <section id="{{ node.title }}">
 {% if node.title and node.heading %}
   <h2>{{ node.heading }}</h2>
