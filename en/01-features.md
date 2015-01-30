@@ -1,7 +1,7 @@
 ---
-title: Vorteile
-heading: Vorteile
-categories: de
+title: Features
+heading: Features
+categories: en
 ---
 <div class="pure-u-sm-1-2 pure-u-md-1-3 feature">
     <h3>Sicherheit</h3>
