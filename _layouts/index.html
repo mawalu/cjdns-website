@@ -23,14 +23,18 @@
     </section>
     {% for node in site.pages %}
     {% if node.categories contains page.langcode %}
+    {% if forloop.last %}
+    <footer>
+{{ node.content }}
+    </footer>
+    {% else %}
     <section id="{{ node.title }}">
 {% if node.title and node.heading %}
   <h2>{{ node.heading }}</h2>
 {% endif %}
-
 {{ node.content }}
-
     </section>
+    {% endif %}
     {% endif %}
     {% endfor %}
   </body>
