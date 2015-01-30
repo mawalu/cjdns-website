@@ -10,7 +10,9 @@ permalink: /:categories/:title/
 
 style:
 #    body: "whitesmoke"
+    anchor: "#46f"
     nav: "#333"
+    description: "white"
     article:
-        even: "#fbfbfb"
         odd: "#05f"
+        even: "#222222"
