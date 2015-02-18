@@ -1,43 +1,83 @@
 <!DOCTYPE html>
-<html lang="{{ page.langcode }}">
+<html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="{{ site.encoding }}">
+    {% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %} {{ page.title }} › {% endif %}{{ site.title }}</title>
-    <link href="{{ "main.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,200italic,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href="//fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+    <link href="{{ "/main.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <style>
+    body > header > *, body > footer > *, article > div > * {
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+    }
+    h2 a {
+      font-size: 1em;
+    }
+    body > div:first-of-type h1 {
+      text-align: center;
+      text-shadow: 1px 0 0 black;
+      font-size: 2.5em;
+      padding-top: 2.5em;
+      padding-bottom: 2.5em;
+    }
+    .feature {
+      display: inline-block;
+      text-align: justify;
+      vertical-align: text-top;
+    }
+    .feature .fa {
+      font-size: 2em;
+      padding: 0.25em;
+      display: block;
+      text-align: center;
+    }
+    .feature h3 {
+      text-align: center;
+    }
+    @media (min-width: 640px) {
+      .feature {
+        width: 39%;
+      }
+    }
+    @media (min-width: 1280px) {
+      .feature {
+        width: 25%;
+      }
+    }
+    </style>
   </head>
   <body>
     <header>
+      {% unless site.style.headline %}<h1><a href="{{ site.baseurl }}/">{{ page.heading }}</a></h1>{% endunless %}
       <nav>
         <ul>
           {% for node in site.pages %}{% if node.title and node.categories contains page.langcode %}<li><a href="#{{ node.title }}">{{ node.title }}</a></li>{% endif %}{% endfor %}
         </ul>
       </nav>
     </header>
+    {% if site.style.headline %}<div><header><h1>{{ page.heading }}</h1></header></div>{% endif %}
+    {% if page.subheading %}<div>{{ page.subheading }}</div>{% endif %}
 {{ content }}
-    <div id="top">
-      <h1>{{ page.heading }}</h1>
-    </div>
     {% assign pages = site.pages | where:"categories", page.langcode %}
     {% for node in pages %}
-    {% if forloop.first %}
-    <div>
-{{ node.content }}
-    </div>
-    {% elsif forloop.last %}
+    {% if forloop.last %}
     <footer>
 {{ node.content }}
     </footer>
     {% else %}
     <article id="{{ node.title }}">
 {% if node.title and node.heading %}
-  <header><h2>{{ node.heading }}</h2></header>
+  <header><h2><a href="#{{ node.title }}">{{ node.heading }}</a></h2><br></header>
 {% endif %}
+      <div>
 {{ node.content }}
+      </div>
     </article>
     {% endif %}
     {% endfor %}

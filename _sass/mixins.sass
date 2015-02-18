@@ -1,18 +1,23 @@
-=contrast($background: #181818)
+=contrast($background)
     $light: lightness($background) > 50%
 
     background: $background
     color: if($light, black, white)
 
-=body_background($background: white)
+=body_background($background, $padding)
     $is_white: lightness($background) == 100%
 
     background: $background
-    padding: if($is_white, 0, 0 calc(27% - 6em))
-    > *
-        padding: if($is_white, 1em calc(33% - 6em), 1em calc(13% - 1.6em))
 
-=article_background($background: white, $anchor: #46f)
+    @if $is_white
+        > *
+            padding: 1em calc(#{$padding} - #{$padding / 5% * 1em})
+    @else
+        padding: 0 calc(#{$padding * 0.8} - #{$padding * 0.8 / 5% * 1em})
+        > *
+            padding: 1em calc(13% - 1.6em)
+
+=article_background($background, $anchor)
     +contrast($background)
     $light: lightness($background) > 50%
 
@@ -26,7 +31,8 @@
     header p
         color: if($light, darken($background, 60%), lighten($background, 60%))
     div a
-        color: if($light, darken($anchor, 5%), lighten($anchor, 5%))
+        font-weight: if($anchor, inherit, 400)
+        color: if($anchor, if($light, darken($anchor, 5%), lighten($anchor, 5%)), inherit)
         &:hover
             color: gray
     footer a

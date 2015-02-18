@@ -1,18 +1,16 @@
-# Site settings
-title: cjdns
+title: "cjdns"
 description: "cjdns: secure decentralized meshnet"
-baseurl: "/cjdns-website/"
 url: "http://mawalu.github.io/"
-
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title/
+baseurl: "/cjdns-website" # comment out if in root directory
 
 style:
 #    body: "whitesmoke"
-    anchor: "#46f"
+    padding: 25%
+#    anchor: "#46f"
+    serif-heading: false
     nav: "#333"
+    headline: "#06f"
     description: "white"
     article:
-        odd: "#fbfbfb"
-        even: "#54626F"
+        odd: "#54626F"
+        even: "#fbfbfb"

@@ -1,12 +1,13 @@
 ---
 layout: index
-langcode: en
-heading: "cjdns: secure decentralized meshnet"
+langcode: "/de"
+heading: "cjdns: Ein sicheres, zentrales Netzwerk"
+subheading: "CJDNS verwendet den Hash des öffentlichen Schlüssel als IPv6-Adresse und speichert Routingdaten als verteilte Hashtabelle. Verstanden? <a href='https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md'>» Whitepaper</a>"
 ---
 
 <script>
   // Multilang redirect
   var languages = ['de'];
   if (languages.indexOf(navigator.language) !== -1)
-    window.location = '{{ site.baseurl }}' + navigator.language;
+    window.location = '{{ site.baseurl }}' + '/' + navigator.language;
 </script>
