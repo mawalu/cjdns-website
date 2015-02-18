@@ -15,4 +15,4 @@ style:
     description: "white"
     article:
         odd: "#fbfbfb"
-        even: "#05f"
+        even: "#54626F"

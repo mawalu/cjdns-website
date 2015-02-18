@@ -1,4 +1,4 @@
 cjdns-website
 =============
 
-deprecated
+Wannabe cjdns info website
