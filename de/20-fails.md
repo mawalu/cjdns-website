@@ -10,7 +10,7 @@ manipulieren. Zwar wurden im Nachhinein an manchen Stellen Verschlüsselung
 eingeführt, die Wirksamkeit dieser ist jedoch fragliche. Weite Teile des
 Internets sind heute noch immer unverschlüsselt.
 
-Als zweites großes Problem sehen wir, dass das heutige Internet von zentral
+Als zweites großes Problem sehen wir, dass das heutige Internet von zentralen
 privaten und staatlichen Organisationen wie zum Beispiel der
 [Icann](http://de.wikipedia.org/wiki/Internet_Corporation_for_Assigned_Names_and_Numbers)
 organisiert wird, welche nach Belieben Benutzer und Inhalte ausschliefen
