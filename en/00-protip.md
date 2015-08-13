@@ -2,6 +2,5 @@
 categories: en
 ---
 
-Du kennst dich bereits mit Netzwerken, P2P Systemen und Kryptographie aus?
-Dann lies am besten gleich das [Whitepaper](https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md)
-
+Protip: If you already know about P2P systems, cryptography and networks jump directly into the
+[whitepaper](https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md)

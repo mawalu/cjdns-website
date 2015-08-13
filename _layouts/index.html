@@ -42,11 +42,4 @@
     {% endif %}
     {% endfor %}
   </body>
-  <script>
-    if (location.pathname === '/') { // we are in the root folder
-      var languages = ['de']; // avaiable languages
-      if (languages.indexOf(navigator.language) !== -1) // browser language is avaiable
-        location = '{{ site.baseurl }}' + '/' + navigator.language; // redirect
-    }
-  </script>
 </html>
